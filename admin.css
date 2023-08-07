@@ -1,0 +1,154 @@
+/*
+author:neelu
+theme=food  order website
+*/
+
+*{
+	padding: 0px;
+	margin: 0px;
+	font-family:  Arial,Helvetic,sans-serif;
+	font-weight: 400;
+}
+
+.wrapper{
+/*	border: 1px solid black;*/
+	padding: 1%;
+	width: 80%;
+	margin: 0 auto;
+}
+.text-center{
+	text-align: center;
+}
+.clearfix{
+	float: none;
+	clear: both;
+}
+/*css for menu*/
+.menu{
+	border-bottom: 3px solid black;
+}
+.menu ul{
+	list-style-type: none;
+
+}
+.menu ul li{
+	display: inline;
+	padding: 1%;
+
+}
+.menu ul li a{
+	text-decoration: none;
+	color: orange;
+	font-weight: bold;
+
+}
+.menu ul li a:hover{
+	color: orangered;
+}
+
+
+/*css for footer*/
+.footer{
+	background-color: orangered;
+	color: white ;
+}
+/* css for admin  */
+.tbl{
+	width: 100%;
+}
+table tr th{
+	border-bottom: 1px solid black;
+	padding: 1%;
+	text-align: left;
+	font-weight: 700;
+}
+table tr td{
+	padding: 1%;
+	font-weight: 500;
+
+
+}
+.tbl-add{
+	width: 30%;
+}
+.tbl-add td{
+	font-weight: 600;
+
+}
+.tbl-add input
+{
+		padding: 2%;
+		font-weight: 500;
+}
+.tbl-add select
+{
+		padding: 2%;
+		font-weight: bold;
+}
+/*css for button*/
+.btn-primary{
+	background-color:#102770;
+	padding: 1%;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+.btn-primary:hover{
+	background-color:#1E003D;
+}
+.btn-secondary{
+	background-color:#006C11;
+	padding: 1%;
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+}
+.btn-secondary:hover{
+	background-color:#005C01;
+}.btn-danger{
+	background-color:#A70C00;
+	padding: 1%;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+.btn-danger:hover{
+	background-color:#870000;
+}
+/*css for main content*/
+
+.main{
+/*	margin: 1% 0;*/
+	background-color: #f1f2f6;
+	padding: 2% 0;
+}
+.col-4{
+	width: 18%;
+	background-color: white;
+	margin: 1%;
+	padding: 2%;
+	float: left;
+
+}
+
+//css for login
+
+.login{
+	width: 30%;
+	border: 1px solid gray;
+}
+@media only screen and (max-width:960px){
+	.main{
+		width: 80%;
+	}
+}
+.img {
+	border-radius: 50%;
+	height: 80px;
+}
+.img-update{
+	border-radius: 50%;
+	height: 80px;
+	width: 80px;
+
+}
